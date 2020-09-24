@@ -1,4 +1,5 @@
 ### [vulkan_env]
+```CMake
 if(WIN32)
     set(VULKAN_SDK_ROOT C:/Vulkan1.2.148.1)
     set(GLFW_ROOT C:/GLFW-WIN64)
@@ -11,6 +12,7 @@ if(WIN32)
 else()
     set(VULKAN_SDK_ROOT /Vulkan1.2.148.1)
 endif()
+```
 ### [vulkan_env]
 
 add_subdirectory(src)
